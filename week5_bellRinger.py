@@ -83,9 +83,14 @@ print(replace1)
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_words = print("ilertation " * 7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+wor="moonlight"
+sen ="With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+wod_in_sen = print(wor in sen)
+
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
