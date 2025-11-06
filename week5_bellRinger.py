@@ -65,7 +65,7 @@ print(text.lower())
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
 motto = ["Make", "haste", "slowly."]
-mottos = print(' '.join((motto)))
+mottos = (' '.join((motto)))
 # b. Now, split the string at every occurrence of the letter 'a'.
 splitm = print(mottos.split('a'))
 
@@ -73,7 +73,12 @@ splitm = print(mottos.split('a'))
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
+sentence = "Life is what happens when you are busy making other plans."
+replace1 = sentence.replace("busy", "distracted").replace("plans", "mistakes")
+print(replace1)
 # b. Replace "plans" with "mistakes".
+
+
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
