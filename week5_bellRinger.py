@@ -46,9 +46,13 @@ python = "Python is fun. Fun is good. Good is subjective."
 subject = print(python.find ('subjective') )
 extract_word = print(python[36: ])
 # b. Extract every third word.
+third_letter = print(python[: :3])
 
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
-
+words = python.split()
+print(words)
+reversed_words = ' '.join(reversed(words))
+print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
